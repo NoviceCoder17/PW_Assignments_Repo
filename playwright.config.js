@@ -10,7 +10,7 @@ export default defineConfig({
   use: {
     baseURL: 'https://eventhub.rahulshettyacademy.com',
     trace: 'on-first-retry',
-    headless:false,
+    headless: !!process.env.CI,
     browserName:'chromium'
   },
 });
