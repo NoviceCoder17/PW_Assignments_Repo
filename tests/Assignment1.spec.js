@@ -1,6 +1,3 @@
-// playwright is just the core library that drives browsers, no test framework.
-// @playwright/test is the runner on top of it: test(), expect(), fixtures, retries, reports.
-
 import { expect,test } from "@playwright/test";
 
 test("Smoke1",async({page})=>{ 
