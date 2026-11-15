@@ -1,6 +1,8 @@
-# Playwright Assignments
+# Assignments
 
-## playwright vs @playwright/test
+## Assignment 1
 
-- `playwright` is  the core library that drives browsers. No test framework.
+### playwright vs @playwright/test
+
+- `playwright` is the core library that drives browsers. No test framework.
 - `@playwright/test` is the runner on top of it: `test()`, `expect()`, fixtures, retries, reports.
